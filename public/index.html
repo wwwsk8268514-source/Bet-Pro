@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071426">
+  <title>BET PRO | Football Predictions</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #071426;
+      color: #fff;
+    }
+
+    header {
+      background: #0d2038;
+      padding: 18px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #d6ad50;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #f2c45f;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 55px 20px;
+      background: linear-gradient(135deg, #102b4a, #071426);
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 span { color: #f2c45f; }
+
+    .hero p {
+      color: #c5d0df;
+      line-height: 1.6;
+    }
+
+    .button {
+      display: inline-block;
+      background: #e7b94e;
+      color: #071426;
+      padding: 13px 22px;
+      margin-top: 15px;
+      border-radius: 6px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 25px 18px;
+    }
+
+    h2 { color: #f2c45f; }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #10243d;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #263c57;
+    }
+
+    .badge {
+      color: #f2c45f;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .card p { color: #c5d0df; line-height: 1.6; }
+
+    .notice {
+      background: #132b42;
+      padding: 16px;
+      border-radius: 8px;
+      color: #c5d0df;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      background: #040d18;
+      color: #9cabbc;
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 500px) {
+      header { padding: 15px; }
+      .logo { font-size: 21px; }
+      nav a { margin-left: 8px; font-size: 12px; }
+      .hero h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">BET PRO ⚽</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#tips">Tips</a>
+    <a href="#premium">Premium</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Welcome to <span>BET PRO</span></h1>
+  <p>Football analysis, match predictions and premium tip packages.</p>
+  <a href="#premium" class="button">Explore Premium Tips</a>
+</section>
+
+<main class="container">
+  <h2 id="tips">⚽ Football Tips</h2>
+  <div class="cards">
+    <article class="card">
+      <span class="badge">FREE SECTION</span>
+      <h3>Free Match Analysis</h3>
+      <p>Publish your match analysis, team form and prediction here.</p>
+      <p>Predictions are uncertain; no outcome is guaranteed.</p>
+    </article>
+
+    <article class="card">
+      <span class="badge">DAILY PACKAGE</span>
+      <h3>Daily Accumulator</h3>
+      <p>Access your daily multi-match prediction package.</p>
+      <p class="price">KSh 100</p>
+      <a class="button" href="#premium">View Package</a>
+    </article>
+
+    <article class="card">
+      <span class="badge">VIP PACKAGE</span>
+      <h3>VIP Daily Tips</h3>
+      <p>Premium match analysis published by the administrator.</p>
+      <p class="price">KSh 200</p>
+      <a class="button" href="#premium">View Package</a>
+    </article>
+  </div>
+
+  <h2 id="premium">🔒 Premium Packages</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Single Match Tip</h3>
+      <p class="price">KSh 50</p>
+      <p>One premium match prediction.</p>
+    </article>
+
+    <article class="card">
+      <h3>Weekly Membership</h3>
+      <p class="price">KSh 500</p>
+      <p>Premium prediction access for one week.</p>
+    </article>
+
+    <article class="card">
+      <h3>Monthly Membership</h3>
+      <p class="price">KSh 1,500</p>
+      <p>Premium prediction access for one month.</p>
+    </article>
+  </div>
+
+  <p class="notice">
+    <strong>Coming next:</strong> Customer registration, login, secure
+    M-Pesa payments, automatic premium access and an administrator dashboard.
+    These features are not active yet.
+  </p>
+
+  <h2>Responsible Betting</h2>
+  <p class="notice">
+    Football predictions are not guarantees. Bet only if legally permitted,
+    set a budget and never stake money you cannot afford to lose.
+    18+ only, subject to local law.
+  </p>
+</main>
+
+<footer>
+  <strong>BET PRO</strong><br>
+  Football predictions and match analysis.<br>
+  © 2026 BET PRO. All rights reserved.
+</footer>
+
+</body>
+</html>
